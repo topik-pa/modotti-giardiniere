@@ -1,0 +1,14 @@
+ul.social-buttons li span {
+    font-size: 20px;
+    line-height: 87px;
+    display: block;
+    width: 75px;
+    height: 75px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #212529;
+    display: block
+}
