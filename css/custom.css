@@ -12,3 +12,8 @@ ul.social-buttons li span {
     background-color: #212529;
     display: block
 }
+
+
+section#contact h3, section#contact p, section#contact strong {
+    color: #fff;
+}
