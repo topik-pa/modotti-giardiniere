@@ -45,6 +45,17 @@ header.masthead .intro-text .intro-heading {
     background-color: #212529;
 }
 
+.goto {
+    font-size: 200%;
+    margin-top: 30px;
+}
+
+body .bg-light:first-of-type {
+    padding-top: 130px;
+}
+
+
+
 
 .home {}
 
@@ -55,6 +66,26 @@ header.masthead .intro-text .intro-heading {
 
 
 .challenges {}
+
+.challenges .gotochallenge a {
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 15px 15px;
+    display: inline-block;
+    width: 100%;
+}
+.challenges .gotochallenge a:hover {
+    text-decoration: none;
+}
+
+.challenges .gotochallenge {
+    background-color: #212529;
+    text-align: center;
+    border-right: 1px solid #aaa;
+}
+.challenges .gotochallenge:hover {
+    background-color: #151515;
+}
 
 
 @media (min-width: 768px) {
@@ -69,5 +100,28 @@ header.masthead .intro-text .intro-heading {
         font-size: 50px;
         line-height: 50px;
         margin-bottom: 110px;
+    }
+    section {
+        padding: 110px 0;
+    }
+    body .bg-light:first-of-type {
+        padding-top: 170px;
+    }
+    .timeline:before {
+        left: 49.6%;
+    }
+    .timeline:before {
+        width: 1%;
+        background-image: linear-gradient(to bottom, red, green);
+    }
+    li.problem, li.solution {
+        margin-bottom: 0!important;
+        min-height: 0!important;
+    }
+    li.problem + li {
+        color: red;
+    }
+    li.solution {
+        color: green;
     }
 }
