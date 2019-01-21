@@ -54,6 +54,11 @@ body .bg-light:first-of-type {
     padding-top: 130px;
 }
 
+.tel {
+    display: block;
+    font-size: 60%;
+}
+
 
 
 
