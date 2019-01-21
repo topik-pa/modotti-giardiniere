@@ -54,7 +54,16 @@ body .bg-light:first-of-type {
     padding-top: 130px;
 }
 
-
+.timeline:before {
+    width: 1%;
+    background-image: linear-gradient(to bottom, red, green);
+}
+li.problem + li {
+    color: red;
+}
+li.solution {
+    color: green;
+}
 
 
 .home {}
@@ -88,6 +97,7 @@ body .bg-light:first-of-type {
 }
 
 
+
 @media (min-width: 768px) {
     header.masthead .intro-text {
         padding-top: 190px;
@@ -109,19 +119,9 @@ body .bg-light:first-of-type {
     }
     .timeline:before {
         left: 49.6%;
-    }
-    .timeline:before {
-        width: 1%;
-        background-image: linear-gradient(to bottom, red, green);
-    }
+    }    
     li.problem, li.solution {
         margin-bottom: 0!important;
         min-height: 0!important;
-    }
-    li.problem + li {
-        color: red;
-    }
-    li.solution {
-        color: green;
-    }
+    }    
 }
