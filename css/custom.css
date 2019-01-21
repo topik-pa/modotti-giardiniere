@@ -64,6 +64,12 @@ li.problem + li {
 li.solution {
     color: green;
 }
+.tel {
+    display: block;
+    font-size: 60%;
+}
+
+
 
 
 .home {}
