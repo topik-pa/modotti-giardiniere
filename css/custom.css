@@ -1,3 +1,8 @@
+.bold {
+    font-weight: bold;
+}
+
+
 ul.social-buttons li span {
     font-size: 20px;
     line-height: 87px;
@@ -69,6 +74,15 @@ li.solution {
     font-size: 60%;
 }
 
+header.masthead {
+    background-image: url(../img/wood.png);
+}
+
+#mainNav .navbar-brand {
+    text-shadow: 1px 0px 0px #DDDDDD;
+    font-size: 2em;
+}
+
 
 
 
@@ -106,16 +120,21 @@ li.solution {
 
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 190px;
+        padding-top: 300px;
+        padding-bottom: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgba(0,0,0, 0.5);
     }
     header.masthead .intro-text .intro-lead-in{
         font-size: 60px;
-        margin-bottom: 100px;
+        /*margin-bottom: 100px;*/
     }
     header.masthead .intro-text .intro-heading {
         font-size: 50px;
         line-height: 50px;
-        margin-bottom: 110px;
+        text-shadow: 1px 0px 0px #000;
+        /*margin-bottom: 110px;*/
     }
     section {
         padding: 110px 0;
