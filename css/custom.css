@@ -27,6 +27,7 @@ section#contact strong {
 
 header.masthead .intro-text {
     padding-top: 140px;
+    background-color: transparent;
 }
 
 
@@ -42,7 +43,11 @@ header.masthead .intro-text .intro-heading {
     font-weight: 400;
     line-height: 30px;
     font-style: italic;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    text-shadow: 1px 0px 0px #000;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 20px;
 }
 
 
@@ -133,8 +138,10 @@ header.masthead {
     header.masthead .intro-text .intro-heading {
         font-size: 50px;
         line-height: 50px;
-        text-shadow: 1px 0px 0px #000;
-        /*margin-bottom: 110px;*/
+        margin: 0 auto;
+        margin-bottom: 110px;
+        background-color: transparent;
+        padding: 0;
     }
     section {
         padding: 110px 0;
@@ -146,7 +153,11 @@ header.masthead {
         left: 49.6%;
     }    
     li.problem, li.solution {
-        margin-bottom: 0!important;
+        margin-bottom: 90px!important;
         min-height: 0!important;
-    }    
+        margin-top: 140px;
+    }
+    li.timeline-inverted {
+        margin-bottom: 0;
+    }
 }
