@@ -2,6 +2,10 @@
     font-weight: bold;
 }
 
+ul {
+    list-style: none;
+}
+
 
 ul.social-buttons li span {
     font-size: 20px;
@@ -85,10 +89,14 @@ header.masthead {
 
 #mainNav .navbar-brand {
     text-shadow: 1px 0px 0px #DDDDDD;
-    font-size: 2em;
+    font-size: 1.3em;
+    white-space: initial;
 }
 
-
+.call {
+    margin-top: 3em;
+    font-weight: bold;
+}
 
 
 .home {}
@@ -121,9 +129,23 @@ header.masthead {
     background-color: #151515;
 }
 
+.strength img {
+    width: 120px;
+    height: 120px;
+    background-color: #2a964b;
+    border-color: #2a964b;
+}
+
 
 
 @media (min-width: 768px) {
+
+    #mainNav .navbar-brand {
+        text-shadow: 1px 0px 0px #DDDDDD;
+        font-size: 2em;
+        white-space: initial;
+    }
+
     header.masthead .intro-text {
         padding-top: 300px;
         padding-bottom: 70px;
